@@ -14,11 +14,7 @@ class SkillRepo {
             icon: Icons.flutter_dash,
             color: Color(0xFF02569B),
           ),
-          SkillItem(
-            name: 'Dart',
-            icon: Icons.code,
-            color: Color(0xFF0175C2),
-          ),
+          SkillItem(name: 'Dart', icon: Icons.code, color: Color(0xFF0175C2)),
         ],
       ),
       TechCategoryModel(
@@ -44,6 +40,11 @@ class SkillRepo {
             icon: FontAwesomeIcons.js,
             color: Color(0xFFF7DF1E),
           ),
+          SkillItem(
+            name: 'Php',
+            icon: FontAwesomeIcons.php,
+            color: Color(0xFFB0B3D6),
+          ),
         ],
       ),
       TechCategoryModel(
@@ -63,6 +64,11 @@ class SkillRepo {
             name: 'Express.js',
             icon: Icons.developer_mode,
             color: Color(0xFF808080),
+          ),
+          SkillItem(
+            name: 'Laravel',
+            icon: Icons.developer_mode,
+            color: Color(0xFFFF2D20),
           ),
           SkillItem(
             name: 'REST APIs',

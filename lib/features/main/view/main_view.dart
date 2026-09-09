@@ -49,9 +49,7 @@ class MainView extends StatelessWidget {
           child: Column(
             children: [
               // Top Navigation Bar
-              NavBar(
-                onMenuPressed: mainViewModel.openDrawer,
-              ),
+              NavBar(onMenuPressed: mainViewModel.openDrawer),
 
               // Scrollable Content
               Expanded(
@@ -138,10 +136,7 @@ class _SectionDivider extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: 48.horizontalPadding,
-      child: const Divider(
-        color: AppColors.darkBorderLight,
-        thickness: 1,
-      ),
+      child: const Divider(color: AppColors.darkBorderLight, thickness: 1),
     );
   }
 }
@@ -184,7 +179,7 @@ class _MobileDrawer extends StatelessWidget {
                         fontColor: AppColors.textWhite,
                       ),
                       MyText(
-                        text: ' />',
+                        text: '/>',
                         fontSize: 20,
                         fontWeight: FontWeight.w700,
                         fontColor: AppColors.primary,
@@ -222,15 +217,17 @@ class _MobileDrawer extends StatelessWidget {
                       title: MyText(
                         text: item.title,
                         fontSize: 15,
-                        fontWeight:
-                            isActive ? FontWeight.w600 : FontWeight.w500,
+                        fontWeight: isActive
+                            ? FontWeight.w600
+                            : FontWeight.w500,
                         fontColor: isActive
                             ? AppColors.primary
                             : AppColors.textLight,
                       ),
                       selected: isActive,
-                      selectedTileColor:
-                          AppColors.primary.withValues(alpha: 0.1),
+                      selectedTileColor: AppColors.primary.withValues(
+                        alpha: 0.1,
+                      ),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       ),
@@ -266,4 +263,3 @@ class _MobileDrawer extends StatelessWidget {
     );
   }
 }
-
