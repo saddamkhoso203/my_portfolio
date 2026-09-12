@@ -41,7 +41,7 @@ class ProjectRepo {
           ),
           ProjectActionLink(
             title: 'GitHub',
-            url: 'https://github.com/GhufranMahsood/my_portfolio',
+            url: 'https://github.com/saddamkhoso203/my_portfolio',
             icon: FontAwesomeIcons.github,
           ),
         ],
@@ -79,7 +79,12 @@ class ProjectRepo {
                 'https://github.com/GhufranMahsood/Vox-Nebula-AI-Voice-Synthesis',
             icon: Icons.graphic_eq_rounded,
           ),
-
+          ProjectActionLink(
+            title: 'Check My Driver',
+            url:
+                'https://play.google.com/store/apps/details?id=checkmydriver.driver.security',
+            icon: Icons.graphic_eq_rounded,
+          ),
           ProjectActionLink(
             title: 'GitHub',
             url: 'https://github.com/GhufranMahsood/voice_generator_app',

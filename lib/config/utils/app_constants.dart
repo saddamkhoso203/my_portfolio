@@ -5,7 +5,7 @@ class AppConstants {
   static const String name = 'Saddam Khoso';
   static const String firstName = 'Saddam';
   static const String lastName = 'Khoso';
-  static const String role = 'Flutter Engineer';
+  static const String role = ' Full Stack  Engineer';
   static const String badgeTag = 'Full Stack Flutter Expert';
   static const String email = 'saddamkhoso203@gmail.com';
   static const String phone = '+92 304 9197628';

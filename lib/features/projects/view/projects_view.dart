@@ -47,7 +47,8 @@ class ProjectsView extends StatelessWidget {
 
             return LayoutBuilder(
               builder: (context, constraints) {
-                final itemWidth = (constraints.maxWidth -
+                final itemWidth =
+                    (constraints.maxWidth -
                         ((crossAxisCount - 1) * (isDesktop ? 28 : 20))) /
                     crossAxisCount;
 
@@ -102,7 +103,10 @@ class _FilterTabs extends StatelessWidget {
     final filters = [
       _FilterOption(label: 'All Projects', filter: ProjectFilter.all),
       _FilterOption(label: 'Open Source', filter: ProjectFilter.openSource),
-      _FilterOption(label: 'Commercial Products', filter: ProjectFilter.product),
+      _FilterOption(
+        label: 'Commercial Products',
+        filter: ProjectFilter.product,
+      ),
       _FilterOption(label: 'Dart Packages', filter: ProjectFilter.package),
     ];
 
@@ -119,20 +123,23 @@ class _FilterTabs extends StatelessWidget {
             builder: (context, isHovered) {
               return AnimatedContainer(
                 duration: const Duration(milliseconds: 150),
-                padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 18,
+                  vertical: 8,
+                ),
                 decoration: BoxDecoration(
                   color: isSelected
                       ? AppColors.primary
                       : (isHovered
-                          ? AppColors.primary.withValues(alpha: 0.15)
-                          : AppColors.darkCardSecondary),
+                            ? AppColors.primary.withValues(alpha: 0.15)
+                            : AppColors.darkCardSecondary),
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all(
                     color: isSelected
                         ? AppColors.primary
                         : (isHovered
-                            ? AppColors.primaryLight
-                            : AppColors.darkBorder),
+                              ? AppColors.primaryLight
+                              : AppColors.darkBorder),
                     width: 1.2,
                   ),
                 ),
@@ -164,10 +171,7 @@ class _ProjectCard extends StatelessWidget {
   final ProjectModel project;
   final Function(String) onLinkTap;
 
-  const _ProjectCard({
-    required this.project,
-    required this.onLinkTap,
-  });
+  const _ProjectCard({required this.project, required this.onLinkTap});
 
   @override
   Widget build(BuildContext context) {
@@ -242,19 +246,21 @@ class _ProjectCard extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: AppColors.darkCardSecondary,
                     borderRadius: BorderRadius.circular(14),
-                    border: Border.all(
-                      color: AppColors.darkBorder,
-                      width: 1,
-                    ),
+                    border: Border.all(color: AppColors.darkBorder, width: 1),
                   ),
                   child: Column(
                     children: [
                       // Window bar
                       Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 10,
+                          vertical: 6,
+                        ),
                         decoration: const BoxDecoration(
                           color: AppColors.darkBackground,
-                          borderRadius: BorderRadius.vertical(top: Radius.circular(13)),
+                          borderRadius: BorderRadius.vertical(
+                            top: Radius.circular(13),
+                          ),
                         ),
                         child: Row(
                           children: [
@@ -292,7 +298,9 @@ class _ProjectCard extends StatelessWidget {
                         height: 160,
                         width: double.infinity,
                         child: ClipRRect(
-                          borderRadius: const BorderRadius.vertical(bottom: Radius.circular(13)),
+                          borderRadius: const BorderRadius.vertical(
+                            bottom: Radius.circular(13),
+                          ),
                           child: Image.asset(
                             project.imageAsset,
                             fit: BoxFit.cover,
@@ -384,4 +392,3 @@ class _ProjectCard extends StatelessWidget {
     );
   }
 }
-
