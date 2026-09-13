@@ -61,7 +61,7 @@ class AppConstants {
   static const String calendarDay = '28';
   static const String calendarWeekday = 'Wednesday';
   static const String callCta = 'Let’s have a 15 min call';
-  static const String footerText = 'Designed & Crafted by Ghufran Mahsood';
+  static const String footerText = 'Designed & Crafted by Saddam Khoso';
 
   // Links & Socials
   static const String githubUrl = 'https://github.com/Saddamkhoso203';
@@ -81,4 +81,7 @@ class AppConstants {
   static const String project2Img = 'assets/images/portfolio_showcase.png';
   static const String project3Img = 'assets/images/habit_pro.jpeg';
   static const String project4Img = 'assets/images/vox_nebula_portfolio.png';
+  static const String project5Img = 'assets/images/Check_MyDriver_showcase.png';
+  static const String project6Img = 'assets/images/Manasik_Smart_showcase.png';
+  static const String project7Img = 'assets/images/Text_Plege_showcase.png';
 }
