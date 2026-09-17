@@ -25,6 +25,11 @@ class ProjectRepo {
             url: 'https://apps.apple.com/us/app/style-hubly/id6788476019',
             icon: FontAwesomeIcons.appStore,
           ),
+          ProjectActionLink(
+            title: 'Website',
+            url: 'https://stylehubly.ai/',
+            icon: FontAwesomeIcons.solidWebAwesome,
+          ),
         ],
       ),
       ProjectModel(
@@ -45,6 +50,11 @@ class ProjectRepo {
             title: 'App Store',
             url: '',
             icon: FontAwesomeIcons.appStore,
+          ),
+          ProjectActionLink(
+            title: 'Website',
+            url: 'https://yeyocar.com/',
+            icon: FontAwesomeIcons.solidWebAwesome,
           ),
         ],
       ),
@@ -98,7 +108,7 @@ class ProjectRepo {
         actionLinks: [
           ProjectActionLink(
             title: 'Web',
-            url: 'https://my-portfolio-24cf6.web.app/',
+            url: '',
             icon: Icons.language_rounded,
           ),
           ProjectActionLink(
@@ -137,13 +147,12 @@ class ProjectRepo {
         actionLinks: [
           ProjectActionLink(
             title: 'Live Demo',
-            url:
-                'https://github.com/GhufranMahsood/Vox-Nebula-AI-Voice-Synthesis',
+            url: '',
             icon: Icons.graphic_eq_rounded,
           ),
           ProjectActionLink(
             title: 'GitHub',
-            url: 'https://github.com/GhufranMahsood/voice_generator_app',
+            url: '',
             icon: FontAwesomeIcons.github,
           ),
         ],

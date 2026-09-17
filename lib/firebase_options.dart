@@ -44,39 +44,38 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAkRuyV8twHDOXYoZYhChwcvpv6hEFwX6M',
-    appId: '1:824607952197:web:5ccf1835e7640d6fdf022c',
-    messagingSenderId: '824607952197',
-    projectId: 'my-portfolio-24cf6',
-    authDomain: 'my-portfolio-24cf6.firebaseapp.com',
-    storageBucket: 'my-portfolio-24cf6.firebasestorage.app',
-    measurementId: 'G-MPMPYNGNR3',
+    apiKey: 'AIzaSyAjAD9heDAoOXO9MfrT9TePQM0Pya5bunI',
+    appId: '1:83503088349:web:7a23895eff51ef2e91d134',
+    messagingSenderId: '83503088349',
+    projectId: 'saddam-khoso',
+    authDomain: 'saddam-khoso.firebaseapp.com',
+    storageBucket: 'saddam-khoso.firebasestorage.app',
+    measurementId: 'G-FTXPK86ZVY',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAaNfqteJPGBdsV1NpZXSkxbkurxHDGcvM',
-    appId: '1:824607952197:android:9699c1e17a13e377df022c',
-    messagingSenderId: '824607952197',
-    projectId: 'my-portfolio-24cf6',
-    storageBucket: 'my-portfolio-24cf6.firebasestorage.app',
+    apiKey: 'AIzaSyDqp9lQZDtSPJOfPhToeysDSiPAFSIdEXQ',
+    appId: '1:83503088349:android:1d60272dc4f5fea991d134',
+    messagingSenderId: '83503088349',
+    projectId: 'saddam-khoso',
+    storageBucket: 'saddam-khoso.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAC91VTPeRG-njtpVBRezBUbtmABQjzk78',
-    appId: '1:824607952197:ios:eccc3e7cc03a19acdf022c',
-    messagingSenderId: '824607952197',
-    projectId: 'my-portfolio-24cf6',
-    storageBucket: 'my-portfolio-24cf6.firebasestorage.app',
+    apiKey: 'AIzaSyCLdtDs1cnAVFBA_bblfk8MVG96Yp_gYt8',
+    appId: '1:83503088349:ios:dbf7913891401a8891d134',
+    messagingSenderId: '83503088349',
+    projectId: 'saddam-khoso',
+    storageBucket: 'saddam-khoso.firebasestorage.app',
     iosBundleId: 'com.example.myPortfolio',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyAkRuyV8twHDOXYoZYhChwcvpv6hEFwX6M',
-    appId: '1:824607952197:web:65521ac64b4a27c8df022c',
-    messagingSenderId: '824607952197',
-    projectId: 'my-portfolio-24cf6',
-    authDomain: 'my-portfolio-24cf6.firebaseapp.com',
-    storageBucket: 'my-portfolio-24cf6.firebasestorage.app',
-    measurementId: 'G-0T8DMPR0FC',
+    apiKey: 'AIzaSyAjAD9heDAoOXO9MfrT9TePQM0Pya5bunI',
+    appId: '1:83503088349:web:884337083cf12e6691d134',
+    messagingSenderId: '83503088349',
+    projectId: 'saddam-khoso',
+    authDomain: 'saddam-khoso.firebaseapp.com',
+    storageBucket: 'saddam-khoso.firebasestorage.app',
+    measurementId: 'G-CGBNDJD1RL',
   );
 }
