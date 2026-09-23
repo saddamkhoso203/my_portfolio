@@ -74,7 +74,8 @@ class ProjectRepo {
 
           ProjectActionLink(
             title: 'App Store',
-            url: '',
+            url:
+                'https://apps.apple.com/us/app/hajj-umrah-assistant/id6772782943',
             icon: FontAwesomeIcons.appStore,
           ),
         ],
@@ -96,6 +97,11 @@ class ProjectRepo {
             title: 'App Store',
             url: 'https://apps.apple.com/pk/app/text-pledge/id6475202862',
             icon: FontAwesomeIcons.appStore,
+          ),
+          ProjectActionLink(
+            title: 'Website',
+            url: 'https://textpledge.us/',
+            icon: FontAwesomeIcons.solidWebAwesome,
           ),
         ],
       ),
